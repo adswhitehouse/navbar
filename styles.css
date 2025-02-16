@@ -51,3 +51,52 @@ select {
   font-size: inherit;
 }
 /* CSS Reset */
+
+body {
+  font-family: "Roboto", serif;
+  background-color: #d1dff6;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.25s;
+}
+
+a:hover {
+  color: #92b6f0;
+}
+
+i {
+  color: #92b6f0;
+}
+
+.h1-span {
+  color: #92b6f0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
